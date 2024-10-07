@@ -30,5 +30,11 @@ public class Student {
         this.age = age;
     }
 
+    // new function to print student info
+    public void printStudentInfo() {
+        System.out.println("Student Name: " + name);
+        System.out.println("Student Age: " + age);
+    }
+
     
 }
